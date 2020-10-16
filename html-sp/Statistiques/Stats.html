@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.8" />
+    <title>Statistiques du poulailler</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <script type="text/javascript" src="../../js/horloge.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <table>
+            <tr>
+                <th><img src="../../img/blason_res.png" alt="" /></td>
+                    <th colspan="4">Poulailler de Ligny-lès-Aire</th>
+                    <td><img src="../../img/poule.jpg" alt="" /></td>
+            </tr>
+        </table>
+        <div class="nonSelectionnable">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="../../Accueil.html">Accueil</a>
+                    </li>
+                    <li>
+                        <a href="../Gérer le poulailler/EtatPoule.html">Etat des poules</a>
+                    </li>
+                    <li>
+                        <a href="../Nid et oeufs/VueNids.html">Vue des nids</a>
+                    </li>
+                    <li>
+                        <a href="../Niveaux et température/TempGrains.html">Etat du poulailler</a>
+                    </li>
+                    <li>
+                        <a href="../Statistiques/Stats.html" class="active">Statistiques</a>
+                    </li>
+                    <li>
+                        <a href="../Sécurisation/Sécurité.html">Sécurisation</a>
+                    </li>
+                    <!--Section vide constituée d'espaces insécables pour séparer le bouton de connexion/déconnexion du reste-->
+                    <li>
+                        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+                        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+                        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+                    </li>
+                    <!--Bouton de connexion/déconnexion-->
+                    <li>
+                        <a href="../Authentification/Connexion.html"> Se connecter </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="content ">
+        <p id="date_heure" class="date_heure"></p>
+        <script type="text/javascript">
+            window.onload = date_heure('date_heure');
+        </script>
+
+    </div>
+
+</body>
+
+</html>
